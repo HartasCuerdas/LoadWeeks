@@ -1,0 +1,42 @@
+{
+  "name": "LoadWeeks",
+  "version": "0.0.1",
+  "description": "AngularJS client app for SimpeREST",
+  "author": "Franco Cedillo <franco.cedillo@gmail.com> http://adagio.github.io",
+  "keywords": [
+    "angular",
+    "webapp",
+    "boilerplate",
+    "gulp",
+    "javascript"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/HartasCuerdas/LoadWeeks/blob/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HartasCuerdas/LoadWeeks"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "",
+    "gulp-connect": "",
+    "gulp-jshint": "",
+    "gulp-stylus": "",
+    "jshint-stylish": "",
+    "nib": "",
+    "gulp-jshint": "",
+    "jshint-stylish": "",
+    "gulp-inject": "",
+    "wiredep": "",
+    "gulp-if": "",
+    "gulp-minify-css": "",
+    "gulp-uglify": "",
+    "gulp-useref": "",
+    "gulp-uncss": "",
+    "gulp-angular-filesort": "",
+    "gulp-angular-templatecache": "",
+    "connect-history-api-fallback": ""
+  }
+}

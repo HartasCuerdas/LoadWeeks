@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weeks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- build:css css/style.min.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <!-- endinject -->
+  <!-- endbuild -->
+</head>
+<body class="loadweeks" ng-app="weeks" ng-controller="AppCtrl as app">
+
+<div class="col-xs-12 col-sm-5 col-md-5">
+
+
+<h1>Weeks</h1>
+
+
+<ul>
+  <li ng-repeat="week in app.weeks">
+    {{ week.id }}
+  </li>
+</ul>
+
+
+
+</div>
+
+  <!-- build:js js/vendor.min.js -->
+  <!-- bower:js -->
+  <script src="lib/jquery/dist/jquery.js"></script>
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+  <!-- build:js js/app.min.js -->
+  <!-- inject:js -->
+  <script src="/scripts/templates.js"></script>
+  <script src="/scripts/app.js"></script>
+  <!-- endinject -->
+  <!-- endbuild -->
+</body>
+</html>

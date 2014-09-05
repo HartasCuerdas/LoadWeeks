@@ -1,0 +1,14 @@
+@import 'fonts'
+
+// colores
+b_silver = #ddd
+
+body
+  font-family 'Raleway-Light'
+  font-size 16px
+
+body.loadweeks
+  table.loadweeks-table
+    tr
+      td
+        vertical-align middle
